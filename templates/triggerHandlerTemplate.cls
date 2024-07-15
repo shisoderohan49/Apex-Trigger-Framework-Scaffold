@@ -1,4 +1,4 @@
-public with sharing class TRIGGER_HANDLER_NAME{
+public with sharing class TRIGGER_HANDLER_NAME extends TriggerHandler{
     private List<OBJECT_API_NAME> newRecords;
     private List<OBJECT_API_NAME> oldRecords;
     private Map<Id,OBJECT_API_NAME> newRecordMap;

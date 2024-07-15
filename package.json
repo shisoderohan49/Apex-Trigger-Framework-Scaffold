@@ -3,7 +3,7 @@
   "displayName": "Create Apex Trigger Framework Scaffold",
   "publisher": "shisoderohan49",
   "description": "Creates Skeletion/Scaffold for your Apex Trigger Framework quickly (based on Kevin O'Hara's framework)",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "engines": {
     "vscode": "^1.91.0"
   },
@@ -43,5 +43,6 @@
     "type": "git",
     "url": "https://github.com/shisoderohan49/Apex-Trigger-Framework-Scaffold"
   },
-  "homepage": "https://github.com/shisoderohan49/Apex-Trigger-Framework-Scaffold/blob/master/README.md"
+  "homepage": "https://github.com/shisoderohan49/Apex-Trigger-Framework-Scaffold/blob/master/README.md",
+  "changelog": "https://github.com/shisoderohan49/Apex-Trigger-Framework-Scaffold/blob/master/CHANGELOG.md"
 }
