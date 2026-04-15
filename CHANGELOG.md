@@ -1,8 +1,9 @@
 # Change Log
 
-All notable changes to this extension will be documented in this file.
+## [0.0.3] - 2026-04-15
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+### Changed
+- Updated the Trigger Handler class template to include the override keyword and remove the static keyword.
 
 ## [0.0.3] - 2024-07-15
 

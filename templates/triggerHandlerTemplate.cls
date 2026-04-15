@@ -11,32 +11,32 @@ public with sharing class TRIGGER_HANDLER_NAME extends TriggerHandler{
         this.oldRecordMap = (Map<Id,OBJECT_API_NAME>) Trigger.oldMap;
     }
 
-    public static void beforeInsert(){
+    public override void beforeInsert(){
         // Add your logic here
         TRIGGER_SERVICES_CLASS.beforeInsertOperations(newRecords);
     }
 
-    public static void afterInsert(){
+    public override void afterInsert(){
         // Add your logic here
         TRIGGER_SERVICES_CLASS.afterInsertOperations(newRecords);
     }
 
-    public static void beforeUpdate(){
+    public override void beforeUpdate(){
         // Add your logic here
         TRIGGER_SERVICES_CLASS.beforeUpdateOperations(newRecords,oldRecordMap);
     }
 
-    public static void afterUpdate(){
+    public override void afterUpdate(){
         // Add your logic here
         TRIGGER_SERVICES_CLASS.afterUpdateOperations(newRecords,oldRecordMap);
     }
 
-    public static void beforeDelete(){
+    public override void beforeDelete(){
         // Add your logic here
         TRIGGER_SERVICES_CLASS.beforeDeleteOperations();
     }
 
-    public static void afterDelete(){
+    public override void afterDelete(){
         // Add your logic here
         TRIGGER_SERVICES_CLASS.afterDeleteOperations();
     }

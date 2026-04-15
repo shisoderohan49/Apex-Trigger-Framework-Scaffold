@@ -3,7 +3,7 @@
   "displayName": "Create Apex Trigger Framework Scaffold",
   "publisher": "shisoderohan49",
   "description": "Creates Skeletion/Scaffold for your Apex Trigger Framework quickly (based on Kevin O'Hara's framework)",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "engines": {
     "vscode": "^1.91.0"
   },
